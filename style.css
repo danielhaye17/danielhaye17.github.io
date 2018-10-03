@@ -1,0 +1,132 @@
+.writer-img {
+
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    width: 150px;
+    margin:auto;
+    height: 175px;
+    border-radius: 100%;
+    justify-content: center;
+  }
+  .grid-container{
+    display: grid;
+    
+    position: relative;
+    margin: 0 auto;
+    grid-gap: 5px;
+    grid-template: repeat(20, 1fr) / repeat(7, 1fr);
+    
+  }
+
+#flex-container {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom:9px;
+  }
+
+  .header{
+	
+    background-color: #466995;
+    justify-content:center;
+    border-bottom: 1px solid #466995;
+    position: relative;
+   
+    z-index: 5;
+    grid-area: 1 / 1 /5 / 8;
+    
+    display: flex;
+     width: 100%;
+    height: 100px;
+     
+     margin: 30px auto;
+    padding: 0 20px;
+    grid-gap: 10px;
+    margin-bottom:9px;
+  }
+  .inner-border{
+    padding: 10px 15px 10px 15px;
+	border:  1px solid white;
+	color: white;
+	bottom: 20px
+  }
+  #max{
+      max-width: 5%;
+  }
+  #max1{
+      max-width: 10%;
+  }
+  .sideline{
+    background-color:rgba(167, 160, 160, 0.315);
+    margin-right: 15px;
+    grid-area: 3/ 2 / 10 / 4;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    float:left;
+  }
+  .inner-border h1{
+	font-family: Georgia;
+	text-align: center;
+	color: white;
+ 	line-height: 1.3px;
+}
+.inner-border h5{
+	font-family: Georgia;
+	line-height: 1.3px;
+	color: white;
+
+}
+
+p {
+  	font-family: Georgia;
+	font-size: 16px;
+  	color: black;
+}
+li{
+    margin-bottom: 10px;
+}
+#media-info,
+#contact-info{
+    padding-bottom: 50px;
+    list-style-type: none;
+    text-align:left;
+}
+.contact-info li{
+    float:left;
+    padding-left:20px
+}
+#work-exp{
+    display:flex;
+     grid-area: 8/ 3 / 14 / 6;
+}
+
+#border-bottom{
+    border-bottom: 2px solid #212f41;
+}
+#border-bottom2{
+    border-bottom: 1px solid #9b9da0;
+}
+ .content{
+     
+     grid-area: 3/ 4 / 14 / 7;
+ }
+ .biography{
+     flex:1;
+     
+ }
+ .phone li{
+     
+    background-size: 5%;
+    padding-left:20px
+ }
+ .facebook li{
+    background-size: 5%;
+     padding-left:20px
+     
+ }
+ 
