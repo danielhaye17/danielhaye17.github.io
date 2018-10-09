@@ -1,3 +1,7 @@
+*{
+    margin:0;
+    padding:0;
+}
 .writer-img {
 
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 50, 0.97);
@@ -14,8 +18,8 @@
     
     position: relative;
     margin: 0 auto;
-    grid-gap: 5px;
-    grid-template: repeat(20, 1fr) / repeat(7, 1fr);
+    grid-gap: 2px;
+    grid-template: repeat(10, 1fr) / repeat(7, 1fr);
     
   }
 
@@ -36,19 +40,18 @@
     position: relative;
    
     z-index: 5;
-    grid-area: 1 / 1 /5 / 8;
+    grid-area: 1 / 1 /3 / 8;
     
     display: flex;
      width: 100%;
     height: 100px;
      
      margin: 30px auto;
-    padding: 0 20px;
-    grid-gap: 10px;
-    margin-bottom:9px;
+    grid-gap: 0px;
+    
   }
   .inner-border{
-    padding: 10px 15px 10px 15px;
+    padding: 35px;
 	border:  1px solid white;
 	color: white;
 	bottom: 20px
@@ -62,24 +65,42 @@
   .sideline{
     background-color:rgba(167, 160, 160, 0.315);
     margin-right: 15px;
-    grid-area: 3/ 2 / 10 / 4;
+    grid-area: 3/ 2 / 8 / 4;
     position: relative;
     padding-right: 15px;
     padding-left: 15px;
     text-align: center;
     float:left;
   }
+  .sideline h2{
+    text-align: left;
+    float:left;
+}
   .inner-border h1{
+    align-self: center;
 	font-family: Georgia;
-	text-align: center;
 	color: white;
  	line-height: 1.3px;
 }
-.inner-border h5{
-	font-family: Georgia;
+.flex2, .flex3{
+    display:flex;
+}
+
+.year{
+    margin-right:30px; 
+}
+.year1{
+    margin-right:20px;
+}
+.skill{
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.inner-inner h5{
+    font-family: Georgia;
+    align-self: center;
 	line-height: 1.3px;
 	color: white;
-
 }
 
 p {
@@ -113,8 +134,11 @@ li{
 }
  .content{
      
-     grid-area: 3/ 4 / 14 / 7;
+     grid-area: 3/ 4 / 8 / 7;
  }
+ .sideline p{
+    font-family:'Times New Roman', Times, serif;
+}
  .biography{
      flex:1;
      
