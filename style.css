@@ -83,8 +83,19 @@
 	color: white;
  	line-height: 1.3px;
 }
-.flex2, .flex3{
+.flex2{
     display:flex;
+}
+#flex3{
+    padding-left: 20px;
+}
+#flex3 ul{
+    display:block;
+   
+}
+#flex3 ul li{
+    float:left;
+    width:50%;
 }
 
 .year{
@@ -154,4 +165,6 @@ li{
      padding-left:20px
      
  }
+
+
  
